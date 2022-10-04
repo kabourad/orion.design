@@ -1,0 +1,83 @@
+body{
+	margin: 0;
+	background-color: lavender;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+}
+
+.window{
+	padding: 10px;
+	width: 90%;
+	height: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+	border: 10px solid rgba(245, 236, 236, 0.998);
+	box-shadow: 2px 2px 330px 1px rgb(241, 114, 114);
+	background-image: url("/orion.design/assets/bg.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.accessButton{
+	display: flex;
+	flex-direction: column;
+}
+
+.bouton{
+	width: 150px;
+	height: 50px;
+	margin-top: 20px;
+	border-radius: 12em;
+	font-size: 1.8rem ;
+	font-weight: 900;
+	color: rgb(21, 6, 22);
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-family: 'Wire One', sans-serif;
+	background-color: transparent;
+	border: none;
+	/* text-shadow: 1px 1px 4px rgb(195, 77, 103), 1px 1px 5px rgb(175, 139, 139); */
+	/* box-shadow: 2px 2px 330px 1px rgb(251, 166, 62); */
+	transition: all 200ms linear;
+}
+
+.bouton:hover{
+	letter-spacing: 3px;
+	background-color: pink;
+	border: 2px solid rgb(34, 6, 35);
+	box-shadow: 6px 5px 0px rgb(241, 215, 215), 6px 5px 0px 2px rgb(21, 6, 22);
+}
+
+.bouton:active{
+	background-color: rgb(235, 170, 181);
+	box-shadow: 5px 4px 0px rgb(241, 215, 215), 5px 4px 0px 2px rgb(21, 6, 22);
+}
+
+.author{
+	font-family: 'Wire One', sans-serif;
+	font-weight: 900;
+	color: rgb(21, 6, 22);
+	letter-spacing: 3px;
+	font-size: 3em;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	/* padding-bottom: 0px;
+	border-bottom: 2px solid rgb(45, 13, 47); */
+}
+
+.quote{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: 'Wire One', sans-serif;
+	font-weight: 100;
+	color: rgb(29, 5, 24);
+	letter-spacing: 3px;
+	font-size: 1em;
+	box-shadow: 2px 2px 330px 1px rgb(115, 17, 17);
+}
