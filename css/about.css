@@ -1,0 +1,77 @@
+.titleAbt{
+	text-align: center;
+	text-decoration-line: overline;
+	font-size: 1.8rem ;
+	font-weight: 900;
+	color: rgb(252, 237, 224);
+	letter-spacing: 1px;
+	font-family: 'Wire One', sans-serif;
+}
+.about{
+	padding: 100px 0px;
+}
+
+.intro{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 50%;
+}
+
+.leftSide{
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.rightSide{
+	width: 60%;
+}
+
+.topSide{
+	display: flex;
+}
+
+#greet{
+	text-align: center;
+	font-size: 1.6rem ;
+	font-weight: 400;
+	color: rgb(29, 5, 24);
+	letter-spacing: 1px;
+	font-family: 'Wire One', sans-serif;
+}
+
+.description{
+	text-align: center;
+	font-size: 2rem ;
+	font-weight: 400;
+	color: rgb(29, 5, 24);
+	/* letter-spacing: 1px; */
+	font-family: 'Wire One', sans-serif;
+	border-left: solid;
+	border-left-color: rgb(252, 237, 224);
+	margin-bottom: 0;
+	
+}
+
+#art{
+	width:20vw;
+	height:20vw;
+	object-fit:cover;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 2px;
+	border-color:rgb(34, 6, 35);
+	box-shadow: 5px 4px 0px rgb(241, 215, 215), 5px 4px 0px 2px rgb(21, 6, 22);
+
+}
+
+#art:hover{
+	box-shadow: 5px 4px 0px rgb(241, 215, 215), 5px 4px 0px 2px rgb(21, 6, 22);
+}
+
+.futur{
+	margin-top: 0;
+	color: palevioletred;
+}
