@@ -1,46 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Orion</title>
-	<link rel="stylesheet" href="./css/styles.css">
-	<link rel="stylesheet" href="./css/about.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&family=Wire+One&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&family=Wire+One&display=swap" rel="stylesheet">
-</head>
-<body>
-	<section class="window">
-		<div class="home">
-			<h1 class="author">Orion</h1>
-			<h6 class="quote">“A head full of stars, just not in constellation yet.”
-			― Elias Canetti</h6>
-		<section class="accessButton">
-			<button class="bouton">About</button>
-			<button class="bouton">Inspiration</button>
-			<button class="bouton">contact</button>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Orion</title>
+		<link rel="stylesheet" href="./css/styles.css" />
+		<link rel="stylesheet" href="./css/about.css" />
+		<link rel="stylesheet" href="./css/msg.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&family=Passions+Conflict&family=Wire+One&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="switch">
+			<img id="tonight" src="assets/night.png"/>
+		</div>
+		<section class="window">
+			<div class="home">
+				<img class="logo" src="assets/logo.svg" />
+				<h1 class="author">Orion</h1>
+				<h6 class="quote">
+					“A head full of stars, just not in constellation yet.” ― Elias Canetti
+				</h6>
+				<section class="accessButton">
+					<a href="#1" class="bouton">About</a>
+					<!-- <button class="bouton">Inspiration</button> -->
+					<a href="#2" class="bouton">contact me</a>
+				</section>
+			</div>
+			<div class="about">
+				<section id="1" class="intro">
+					<p class="titleAbt">About</p>
+					<div class="topSide">
+						<div class="leftSide">
+							<img id="art" src="../assets/me.gif" />
+						</div>
+						<div class="rightSide">
+							<h2 class="greet">HELLO!</h2>
+							<p class="description">
+								hi! my name is kenza, i am from Casablanca MOROCCO, i aspire to
+								become a competent web dev and designer! I created this website
+								as a first web project and fell in love with it! I am looking
+								forward to expand my skillset and engage in many creative
+								projects in the future, because...
+							</p>
+							<p class="description futur">future is no longer loading.</p>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div id="2" style="width: 100%">
+				<p class="titleAbt">Contact me</p>
+				<form
+					class="msg"
+					action="https://formspree.io/f/mqkjbjkw"
+					method="POST"
+				>
+					<div
+						style="
+							display: flex;
+							flex-direction: column;
+							gap: 6px;
+							width: 100%;
+							align-items: center;
+						"
+					>
+						<label class="greet"> Please provide your email: </label>
+						<input class="mail" type="email" name="email" />
+					</div>
+					<div
+						style="
+							display: flex;
+							flex-direction: column;
+							gap: 6px;
+							width: 100%;
+							align-items: center;
+						"
+					>
+						<label class="greet"> How may I be of service?: </label>
+						<textarea class="input" name="message"></textarea>
+					</div>
+					<!-- your other form fields go here -->
+					<button class="bouton" type="submit">Send</button>
+				</form>
+			</div>
 		</section>
-		</div>
-		<div class="about">
-			<section class="intro">
-				<p class="titleAbt">About</p>
-				<div class="topSide">
-					<div class="leftSide">
-						<img id="art"src="../assets/abt.png" />
-					</div>
-					<div class="rightSide">
-						<h2 id="greet">HELLO!</h2>
-						<p class="description">hi! my name is kenza, i am from Casablanca MOROCCO, i aspire to become a competent web dev and designer! I created this website as a first web project and fell in love with it! I am lookinng forward to expand my skillset and engage in many creative projects in the future, because...</p>
-						<p class="description futur">future is no longer loading.</p>					
-					</div>
-				</div>
-			</section>
-		</div>
-	</section>
-	
-</body>
+	</body>
 </html>

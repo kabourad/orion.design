@@ -33,7 +33,7 @@
 	display: flex;
 }
 
-#greet{
+.greet{
 	text-align: center;
 	font-size: 1.6rem ;
 	font-weight: 400;

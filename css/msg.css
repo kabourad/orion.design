@@ -1,0 +1,28 @@
+.msg{
+	display:flex;
+	flex-direction: column;
+	gap: 59px;
+}
+
+.input{
+	width: 50%;
+	height: 100px;
+	font-family: 'Passions Conflict', cursive;	border: none;
+	font-size: large;
+	caret-color: pink;
+	font-size: 3rem;
+	border: 2px solid black;
+	background-color: rgb(255, 244, 233);
+	outline: none;
+}
+
+.mail{
+	width: 50%;
+	height: 50px;
+	border: 2px solid black;
+	font-family: 'Passions Conflict', cursive;
+	font-size: 3rem;
+	outline: none;
+	caret-color: pink;
+	background-color: rgb(255, 244, 233);
+}
